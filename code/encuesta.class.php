@@ -30,6 +30,7 @@ class Encuesta {
                     $this->DB->QuerySQL("INSERT INTO respuestas(id_usuario,id_pregunta,id_respuesta) VALUES(".$id_usuario.",".$key.",".$valor.")");
                 }
                 echo "<script> alert('Se ha guardado el registro'); </script>";
+                echo "<script> window.location.href='index.php'; </script>";
             }else {
                 echo "<script> alert('Ha sucedido un error'); </script>";
             }
