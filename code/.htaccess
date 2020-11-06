@@ -1,0 +1,15 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^ index.php [QSA,L]
+#RewriteRule  ^/$ index.php
+#RewriteRule ^encuesta/([0-9]+)$ encuesta.php?id=$1
+#RewriteRule ^mantenimiento$ mantenimiento.php
+#RewriteRule ^mantenimiento/([0-9]+)$ mantenimiento_preguntas.php?id=$1
+#RewriteRule ^mantenimiento/([a-z]+)/([0-9]+)$ mantenimiento_preguntas.php?code=$1&id=$2
+#RewriteRule ^blog/([0-9]+)$ blog.php?publicacion_id=$1 
