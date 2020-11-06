@@ -9,11 +9,14 @@ $consulta = $obj->showAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <title>Proyecto #1 | Mantenimiento</title>
 </head>
-<body>
-    <a href="mantenimiento_preguntas.php">Crear Pregunta</a>
-    <table>
+<body class="bg-light">
+    <div class="container">
+    <div class="row justify-content-center ">
+    <a href="mantenimiento_preguntas.php" type="button" class="btn btn-primary">Crear Pregunta</a>
+    <table class="table">
         <thead>
             <tr>
                 <td>#</td>
@@ -37,5 +40,7 @@ $consulta = $obj->showAll();
         ?>
         </tbody>
     </table>
+    </div>
+    </div>
 </body>
 </html>
