@@ -49,7 +49,8 @@ INSERT INTO `preguntas` (`id`, `titulo`) VALUES
 (9, '¿Conoces a mi hermana?'),
 (10, '¿Sabes donde queda Pedasi?'),
 (11, 'Debemos presentar Hoy');
-
+(12, '¿Vamos a viajar este fin?');
+(13, '¿Crees que regremos a confinamiento?');
 -- --------------------------------------------------------
 
 --
