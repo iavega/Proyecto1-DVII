@@ -10,6 +10,10 @@ class Conexion_DB {
             die('Error de Conexión (' . $this->conexion->connect_errno . ') '
                     . $this->conexion->connect_error);
         }
+        if (!$this->conexion->set_charset("utf8")) {
+          printf("Error cargando el conjunto de caracteres utf8: %s\n", $mysqli->error);
+          exit();
+        }
     }
     public function QuerySQL($String){
         $res = $this->conexion->query($String);

@@ -7,11 +7,20 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <title>Proyecto #1</title>
 </head>
-<body>
+<body class="bg-light">
+    <div class="container pt-5">
+    <div class="row justify-content-center ">
+    <div class="col-md-4 align-items-center align-items-center">
     <h1>Proyecto #1</h1>
-    <ul>
-        <li><a href="encuesta.php">Encuesta</a></li>
-        <li><a href="mantenimiento">Mantenimiento de preguntas</a></li>
-    </ul>
+    <br><br>
+    <div class="d-flex flex-column">
+        <a href="encuesta.php" type="button" class="btn btn-primary">Encuesta</a>
+        <br>
+        <a href="mantenimiento.php" type="button" class="btn btn-primary">Mantenimiento de preguntas</a>
+        <br>
+        <a href="reportes.php" type="button" class="btn btn-primary">Reportes</a>
+    </div>
+    </div>
+    </div>
 </body>
 </html>

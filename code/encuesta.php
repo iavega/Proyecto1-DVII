@@ -30,7 +30,7 @@ if(isset($_POST['encuestaD'])){
                                 <input type="hidden" name="encuestaD" value="1">
                                 <div class="form-group col-md-4">
                                     <label for="">Nombre</label>
-                                    <input class="form-control" type="text"  name="nombre" value="">    
+                                    <input class="form-control" type="text"  name="nombre" value="">
                                 </div>
                                 <div class="form-group col-md-4">
                                     <label for="">Apellido</label>
@@ -48,7 +48,7 @@ if(isset($_POST['encuestaD'])){
                                     <label for="">Edad</label>
                                     <input class="form-control" type="text" name="edad" value="">
                                 </div>
-                                <div class="form-group col-md-4">    
+                                <div class="form-group col-md-4">
                                     <label for="">Salario</label>
                                     <input class="form-control" type="text" name="salario" value="">
                                 </div>
@@ -66,11 +66,11 @@ if(isset($_POST['encuestaD'])){
                                     <ul>
                                     <?php
                                     while($item = $data->fetch_assoc()){
-                                        echo "<li>".utf8_decode($item['titulo'])."<br>
+                                        echo "<li>".html_entity_decode($item['titulo'])."<br>
                                         <input type='radio' name='P[$item[id]]' value='1'> SI<br>
                                         <input type='radio' name='P[$item[id]]' value='2'> NO
                                         </li>";
-                                        
+
                                     }
                                     ?>
                                     </ul>

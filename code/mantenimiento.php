@@ -12,7 +12,7 @@ $consulta = $obj->showAll();
     <title>Proyecto #1 | Mantenimiento</title>
 </head>
 <body>
-    <a href="mantenimiento/0">Crear Pregunta</a>
+    <a href="mantenimiento_preguntas.php">Crear Pregunta</a>
     <table>
         <thead>
             <tr>
@@ -29,7 +29,7 @@ $consulta = $obj->showAll();
             echo "<tr>";
             echo "<td>".$x."</td>";
             echo "<td>".$item['titulo']."</td>";
-            echo "<td><a  href='mantenimiento/".$item['id']."'>Editar</a></td>";
+            echo "<td><a  href='mantenimiento_preguntas.php?id=".$item['id']."'>Editar</a></td>";
             echo "<td><a  href='mantenimiento/delete/".$item['id']."'>Eliminar</a></td>";
             echo "</tr>";
             $x++;
