@@ -8,8 +8,9 @@
     <title>Proyecto #1</title>
 </head>
 <body>
+    <h1>Proyecto #1</h1>
     <ul>
-        <li><a href="encuesta/0">Encuesta</a></li>
+        <li><a href="encuesta.php">Encuesta</a></li>
         <li><a href="mantenimiento">Mantenimiento de preguntas</a></li>
     </ul>
 </body>

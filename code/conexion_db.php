@@ -4,8 +4,8 @@ class Conexion_DB {
     protected $conexion;
     public $insert_id;
     public function __construct()
-    {   
-        $this->conexion =  new mysqli('127.0.0.1','root','','proyecto');
+    {
+        $this->conexion =  new mysqli('db','dev','dev','proyecto');
         if ($this->conexion->connect_error) {
             die('Error de Conexión (' . $this->conexion->connect_errno . ') '
                     . $this->conexion->connect_error);
