@@ -38,17 +38,17 @@ CREATE TABLE `preguntas` (
 --
 
 INSERT INTO `preguntas` (`id`, `titulo`) VALUES
-(6, '¿Esta es la casa que está en venta?'),
-(7, '¿Tienes el teléfono del mecánico de urgencias?'),
-(8, '¿Leíste el texto que tenías de tarea?'),
-(9, '¿Sabes que vas a estudiar cuando termines el colegio?'),
-(10, '¿Tiene experiencia en el rubro?'),
-(11, '¿Quién fue el primer presidente elegido mediante el voto universal?'),
-(12, '¿Cuál es su estado civil?'),
-(13, '¿Cuándo tendrás vacaciones este verano?'),
-(14, '¿Conoces a mi hermana?'),
-(15, '¿En qué fecha finalizó la Guerra de la Independencia?'),
-(16, 'Debemos presentar Hoy');
+(1, '¿Esta es la casa que está en venta?'),
+(2, '¿Tienes el teléfono del mecánico de urgencias?'),
+(3, '¿Leíste el texto que tenías de tarea?'),
+(4, '¿Conoces a mis abuelos?'),
+(5, '¿Tiene experiencia en el rubro?'),
+(6, '¿Tienes 18 años?'),
+(7, '¿Cuál es su estado civil?'),
+(8, '¿Tendre vacaciones este verano?'),
+(9, '¿Conoces a mi hermana?'),
+(10, '¿Sabes donde queda Pedasi?'),
+(11, 'Debemos presentar Hoy');
 
 -- --------------------------------------------------------
 
